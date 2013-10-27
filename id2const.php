@@ -2,7 +2,7 @@
 
 /**
  * Convert NPC View IDs to Constants.
- *	@author     Kisuka <kisuka@kisuka.com>
+ *  @author     Kisuka <kisuka@kisuka.com>
  *  @version    1.0.0
  *  @copyright  (c) 2013 Taylor Locke
  *  @license    MIT License
