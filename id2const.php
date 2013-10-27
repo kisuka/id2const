@@ -45,7 +45,7 @@ foreach($objects as $name => $object){
 			// Search for NPC header of duplcate NPCs.
 			else if (preg_match('/duplicate((.*))\t(.*)\t([0-9]+)/', $line, $parts)) {
 				// Check if NPC is in consts.php, if not, don't change ID to Const.
-				if(array_key_exists($parts[1], $npcs))
+				if(array_key_exists($parts[4], $npcs))
 					$line = str_replace("\t".$parts[4], "\t".$npcs[$parts[4]], $line);	// Replace NPC View ID with sprite name constant.
 			}
 
